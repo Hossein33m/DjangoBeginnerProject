@@ -1,0 +1,36 @@
+@font-face{
+    font-family: 'custom';
+    src: url('Kwajong.ttf') format('truetype');
+}
+body{
+    font-family: 'custom';
+    font-size: 16px;
+    background-image: url('pexels.jpg');
+    color: black;
+}
+.container-fluid{
+    background-color: rgba(0, 139, 139, 0.6);
+    font-size: 1.5em;
+    color:rgb(88, 255, 88);
+}
+.container{
+    background-color: rgba(0, 139, 139, 0.6);
+    text-align: center;
+    border: 20px solid rgb(12, 71, 86);
+    border-radius: 20px;
+    margin-top: 20px;
+}
+#btn{
+    background-color: rgb(88, 255, 88);
+    font-family: 'custom';
+    font-size: 2em;
+    width: 200px;
+    border-radius: 10px;
+}
+#box{
+    accent-color: rgb(88, 255, 88);
+    transform: scale(2);
+}
+span{color:rgb(88, 255, 88);}
+.row{font-size: 1.2em;}
+select{font-size: 1.5em;}

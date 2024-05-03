@@ -1,0 +1,25 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DOM</title>
+        <link rel="stylesheet" href="{% static 'DOM.css' %}">
+    </head>
+    <body>
+        <h1 class="tx">Color Picker</h1>
+        <input type="color" id="picker" value="#00ccbb">
+        <input type="button" id="btn" value="apply">
+        <p class="tx">
+            hello my name is cyber.33 .<br>
+            this is my color picker website .<br>
+            here is the text color :
+        </p>
+        <p class="tx" id="ShowColor">#000000</p>
+        <!-- <a href=".."> BACK </a> <br>
+        <a href="NextPage"> NextPage </a> <br>
+        <a href="../AnotherPage"> AnotherPage </a> <br> -->
+    </body>
+    <script src="{% static 'DOM.js' %}"></script>
+</html>
